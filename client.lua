@@ -2,8 +2,8 @@
     First Person Only (Server Sided) Resource created by TheLukasGran, edited by Benedictus9
 ------------------------------------------------------------------------]]--
 local forceFirstPerson = true
-local cam = CreateCam("firstperson", true)
-local playerIdx = GetPlayerFromServerId(Citizen.Player)
+local cam = nil
+local playerIdx = GetPlayerFromServerId(Citizen.PlayerID)
 local ped = GetPlayerPed(-1)
 
 -- CODE --
