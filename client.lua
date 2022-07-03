@@ -1,5 +1,5 @@
 --[[------------------------------------------------------------------------
-    First Person Only (Server Sided) Resource created by Daniel
+    First Person Only (Server Sided) Resource created by TheLukasGran, edited by Benedictus9
 ------------------------------------------------------------------------]]--
 local forceFirstPerson = true
 local cam = CreateCam("firstperson", true)
