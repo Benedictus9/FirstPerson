@@ -3,8 +3,8 @@
 ------------------------------------------------------------------------]]--
 local forceFirstPerson = true
 local cam = nil
-local playerIdx = GetPlayerFromServerId(Citizen.PlayerID)
-local ped = GetPlayerPed(-1)
+local playerIdx = PlayerId()
+local ped = PlayerPedId()
 
 -- CODE --
 Citizen.CreateThread(function()
@@ -15,7 +15,7 @@ Citizen.CreateThread(function()
         		Wait(1)
 
     			if forceFirstPerson then
-        		AttachCamToPedBone("firstperson", -1, 0x796E, 0, 0, 0.15, 0.5, true)
+        		AttachCamToPedBone("firstperson", -1, 31086, 0, 0, 0.15, 0.5, true)
 
 			end
 		end
